@@ -1,0 +1,56 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+}
+
+#map {
+	position: relative;
+	width: 480px;
+	margin: auto;
+}
+
+#resultMap {
+	width: 100%;
+	height: 100%;
+
+}
+
+table {
+	border-collapse: collapse;
+	width: max-content;
+}
+
+td{
+	width: 60px;
+	height: 60px;
+	padding: 0;
+	background-size: cover;
+	font-size: 0; 
+}
+
+
+.grass {
+	background-image: url("../img/grass.png");
+}
+.rock {
+	background-color: rgb(161, 95, 19);
+}
+.water {
+	background-image: url("../img/water.gif");
+}
+
+
+
+.wall {
+	background-color: grey;
+}
+
+.arrow-right {
+	background-color: crimson;
+	text-align: center;
+	font-size: 2rem;
+	color: #fff;
+}
