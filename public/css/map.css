@@ -48,8 +48,8 @@ td{
 	background-color: grey;
 }
 
-.arrow-right {
-	background-color: crimson;
+.arrow-right, .arrow-left {
+	background-color: rgb(121, 165, 121);
 	text-align: center;
 	font-size: 2rem;
 	color: #fff;
